@@ -29,18 +29,18 @@ cnt = {
 }
 
 snets = {
-    subnet1 = {
-  name                 = "subnet1"
-  resource_group_name  = "rg-test"
-  virtual_network_name = "VNet1"
-  address_prefixes     = ["10.0.1.0/24"]
-    }
+  subnet1 = {
+    name                 = "subnet1"
+    resource_group_name  = "rg-test"
+    virtual_network_name = "VNet1"
+    address_prefixes     = ["10.0.1.0/24"]
+  }
 }
 vnets = {
   Vnet1 = {
     name                = "VNet1"
     location            = "centralindia"
-    resource_group_name ="rg-test"
+    resource_group_name = "rg-test"
     address_space       = ["10.0.0.0/16"]
     dns_servers         = ["10.0.0.4", "10.0.0.5"]
   }
